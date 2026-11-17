@@ -1,0 +1,199 @@
+# Copyright (C) 2026
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Portal 1.1.0\n"
+"POT-Creation-Date: 2026-11-17 11:38+0100\n"
+"PO-Revision-Date: 2026-11-17 11:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.9\n"
+"X-Domain: portal\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_html__;esc_html_e;esc_html_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;translate;translate_with_gettext_context:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/class-admin.php:88
+msgid "Portal Settings"
+msgstr "Réglages de Portail"
+
+#: includes/admin/class-admin.php:89
+msgid "Portal"
+msgstr "Portail"
+
+#: includes/admin/class-admin.php:175
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous ne disposez pas d'autorisations suffisantes pour accéder à cette page."
+
+#: includes/admin/class-admin.php:209
+#, php-format
+msgid "Settings saved. 1 site with valid RSS feed."
+msgid_plural "Settings saved. All %d sites have valid RSS feeds."
+msgstr[0] "Paramètres sauvegardés. 1 site a un flux RSS valide."
+msgstr[1] "Paramètres sauvegardés. Les %d sites ont un flux RSS valide."
+
+#: includes/admin/class-admin.php:211
+#, php-format
+msgid "Settings saved. %1$d of %2$d site has valid RSS feed."
+msgid_plural "Settings saved. %1$d of %2$d sites have valid RSS feeds."
+msgstr[0] "Paramètres sauvegardés. %1$d site sur %2$d a un flux RSS valide."
+msgstr[1] "Paramètres sauvegardés. %1$d sites sur %2$d ont un flux RSS valide."
+
+#: includes/admin/class-admin.php:213
+#, php-format
+msgid "Settings saved. %d site configured but no valid RSS feeds found."
+msgid_plural "Settings saved. %d sites configured but no valid RSS feeds found."
+msgstr[0] "Paramètres sauvegardés. %d site configuré mais aucun flux RSS valide trouvé."
+msgstr[1] ""
+"Paramètres sauvegardés. %d sites configurés mais aucun flux RSS valide trouvé."
+
+#: includes/admin/class-admin.php:218
+msgid "Settings saved."
+msgstr "Paramètres sauvegardés."
+
+#: includes/admin/class-admin.php:253
+msgid "Save Settings"
+msgstr "Sauvegarder les paramètres"
+
+#: includes/admin/class-admin.php:469
+#, php-format
+msgid "No valid RSS feed found for: %s"
+msgstr "Pas de flux trouvé pour: %s"
+
+#: includes/admin/class-admin.php:490
+msgid "Warning: None of the entered sites have a valid RSS feed."
+msgstr "Avertissement : Aucun des sites saisis ne possède un flux RSS valide."
+
+#: includes/admin/tabs/display.php:11
+msgid "Display"
+msgstr "Affichage"
+
+#: includes/admin/tabs/general.php:12
+msgid "General"
+msgstr "Général"
+
+#: includes/admin/tabs/general.php:24
+msgid "WordPress Sites"
+msgstr "Sites WordPress"
+
+#: includes/admin/tabs/general.php:29
+msgid "Add WordPress site URLs to fetch RSS feeds from"
+msgstr "Ajouter des URL de sites WordPress pour récupérer les flux RSS"
+
+#: includes/admin/tabs/general.php:53 includes/admin/tabs/general.php:82
+#: includes/admin/tabs/general.php:168
+msgid "https://example.com"
+msgstr "https://example.com"
+
+#: includes/admin/tabs/general.php:56
+msgid "Valid RSS feed detected"
+msgstr "Flux RSS valide détecté"
+
+#: includes/admin/tabs/general.php:64
+msgid "View RSS Feed"
+msgstr "Afficher le flux RSS"
+
+#: includes/admin/tabs/general.php:65
+msgid "RSS"
+msgstr "RSS"
+
+#: includes/admin/tabs/general.php:71 includes/admin/tabs/general.php:72
+#: includes/admin/tabs/general.php:87 includes/admin/tabs/general.php:88
+#: includes/admin/tabs/general.php:170
+msgid "Remove"
+msgstr "Supprimer"
+
+#: includes/admin/tabs/general.php:97
+msgid "Add WordPress Site"
+msgstr "Ajouter un  site WordPress"
+
+#: includes/admin/tabs/general.php:101
+msgid ""
+"Enter WordPress site URLs (one per field). The plugin will automatically fetch the "
+"RSS feed."
+msgstr ""
+"Entrez les URL du site WordPress (une par champ). Le plugin récupérera "
+"automatiquement le flux RSS."
+
+#: includes/admin/tabs/general.php:104
+msgid "Example: "
+msgstr "Exemple: "
+
+#: includes/class-loader.php:113
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/class-loader.php:129
+msgid "Documentation"
+msgstr "Documentation"
+
+#: includes/class-shortcode.php:100
+msgid "No sites configured. Please add WordPress sites in Portal settings."
+msgstr ""
+"Aucun site configuré. Veuillez ajouter des sites WordPress dans les paramètres du "
+"portail."
+
+#: includes/class-shortcode.php:113
+msgid "No valid RSS feeds found for the configured sites."
+msgstr "Aucun flux RSS valide n'a été trouvé pour les sites configurés."
+
+#: includes/class-shortcode.php:127
+msgid "No feed items found."
+msgstr "Aucun élément de flux n'a été trouvé."
+
+#: includes/class-shortcode.php:158
+msgid "Portal feed error. Please check plugin settings."
+msgstr "Erreur du flux du portail. Veuillez vérifier les paramètres du plugin."
+
+#: includes/class-shortcode.php:689
+msgid "Feed pagination"
+msgstr "Pagination du flux"
+
+#: includes/class-shortcode.php:694
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: includes/class-shortcode.php:694 includes/class-shortcode.php:696
+msgid "Previous"
+msgstr "Précédent"
+
+#: includes/class-shortcode.php:700
+#, php-format
+msgid "Page %1$d of %2$d"
+msgstr "Page %1$d de %2$d"
+
+#: includes/class-shortcode.php:705
+msgid "Next page"
+msgstr "Page suivante"
+
+#: includes/class-shortcode.php:705 includes/class-shortcode.php:707
+msgid "Next"
+msgstr "Suivant"
+
+#: includes/admin/class-admin.php
+#, php-format
+msgid "Reason: %s"
+msgstr "Raison : %s"
+
+#~ msgid "Site Title"
+#~ msgstr "Titre du site"
+
+#~ msgid "Advanced"
+#~ msgstr "Avancé"
+
+#~ msgid "Configure Portal plugin settings."
+#~ msgstr "Configurer les paramètres du plugin Portail."
+
+#, php-format
+#~ msgid "Portal requires PHP %s or higher."
+#~ msgstr "Portal nécessite PHP %s ou supérieur."
+
+#, php-format
+#~ msgid "Portal requires WordPress %s or higher."
+#~ msgstr "Portal nécessite WordPress %s ou supérieur."
