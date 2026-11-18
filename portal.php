@@ -22,11 +22,12 @@ define( 'PORTAL_FILE', __FILE__ );
 define( 'PORTAL_DIR', plugin_dir_path( PORTAL_FILE ) );
 define( 'PORTAL_URL', plugin_dir_url( PORTAL_FILE ) );
 define( 'PORTAL_BASENAME', plugin_basename( PORTAL_FILE ) );
-define( 'PORTAL_VERSION', '1.1.0' );
+define( 'PORTAL_VERSION', get_plugin_data( __FILE__)['Version'] );
 
 // Load the autoloader.
 if ( ! class_exists( 'Portal_Loader' ) ) {
 	require_once PORTAL_DIR . 'includes/class-loader.php';
+	require_once PORTAL_DIR . 'includes/class-wp-api.php';
 }
 
 // Register activation hook at top level (not inside another hook).

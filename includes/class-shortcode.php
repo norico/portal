@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 
 /**
  * Portal_Shortcode class
- * 
+ *
  * Manages the shortcode output for displaying aggregated RSS feeds.
  */
 class Portal_Shortcode {
